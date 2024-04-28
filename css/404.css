@@ -1,10 +1,4 @@
 /* reset css */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
-}
 
 * {
   margin: 0;
@@ -764,3 +758,4 @@ footer a:hover {
     margin-top: 5px;
   }
 }
+>>>>>>> 43eead0c07172ca0b3c7b4849d613c721b7ce00f
