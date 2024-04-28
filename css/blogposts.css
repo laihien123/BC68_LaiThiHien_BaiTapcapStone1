@@ -155,6 +155,13 @@ a {
 .dark .about .about_bot label {
   background-color: #3f252a;
 }
+
+.dark .about .about_pagenumber .page1 {
+  border: 1px solid #dc4f72;
+
+  color: #dc4f72;
+}
+
 .dark .about .about_pagenumber li a {
   border: 1px solid rgba(128, 128, 128, 0.308);
   color: white;
@@ -539,7 +546,7 @@ header .navbar.active {
 
 .about .about_item:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
-  transform: translateY(1.5rem);
+  transform: translateY(-1.5rem);
 }
 
 .about .about_item:hover a {
@@ -611,9 +618,7 @@ header .navbar.active {
   font-weight: 700;
   border-color: transparent;
 }
-.about .about_pagenumber .page1,
-.about .about_pagenumber .page2,
-.about .about_pagenumber .page3 {
+.about .about_pagenumber .page1 {
   border: 1px solid #dc4f72;
   color: #dc4f72;
 }
