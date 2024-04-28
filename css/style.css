@@ -43,7 +43,7 @@ a {
 /* mode */
 /* Light theme */
 #myBody {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #switchButton .fa-sun {
@@ -101,10 +101,14 @@ a {
 .dark .banner_bg {
   background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.92)),
 <<<<<<< HEAD
+<<<<<<< HEAD
     url(../img/banner.jpg);
 =======
   url(./../img/imghome/banner.jpg);
 >>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
+=======
+    url(./../image/imghome/banner.jpg);
+>>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -220,10 +224,15 @@ a {
 /* Dark Theme--people*/
 .dark .people_bg {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)), url(../img/b2.jpg);
 =======
   background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)), url(./../img/imghome/b2.jpg);
 >>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
+=======
+  background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)),
+    url(./../image/imghome/b2.jpg);
+>>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -257,7 +266,7 @@ a {
 }
 
 /* Dark Theme--footer*/
-.dark footer>div {
+.dark footer > div {
   background: #191c1d !important;
 }
 
@@ -438,10 +447,14 @@ header .navbar.active {
 .banner_bg {
   background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.8)),
 <<<<<<< HEAD
+<<<<<<< HEAD
     url(../img/banner.jpg);
 =======
     url(./../img/imghome/banner.jpg);
 >>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
+=======
+    url(./../image/imghome/banner.jpg);
+>>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -606,10 +619,14 @@ header .navbar.active {
 .perform_bg {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)),
 <<<<<<< HEAD
+<<<<<<< HEAD
     url(../img/bg.jpg);
 =======
     url(./../img/imghome/bg.jpg);
 >>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
+=======
+    url(./../image/imghome/bg.jpg);
+>>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -696,7 +713,7 @@ header .navbar.active {
   height: 9px;
 }
 
-.general .general_item ul li input[type="checkbox"]:checked~i:before {
+.general .general_item ul li input[type="checkbox"]:checked ~ i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
 
@@ -704,7 +721,7 @@ header .navbar.active {
   transform: translate(-2px, 0) rotate(45deg);
 }
 
-.general .general_item ul li input[type="checkbox"]:checked~i:after {
+.general .general_item ul li input[type="checkbox"]:checked ~ i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
@@ -732,7 +749,7 @@ header .navbar.active {
   margin-bottom: 0;
 }
 
-.general .general_item ul li input[type="checkbox"]:checked~p {
+.general .general_item ul li input[type="checkbox"]:checked ~ p {
   margin-top: 0;
   max-height: 0;
   opacity: 0;
@@ -845,10 +862,14 @@ header .navbar.active {
 .people_bg {
   background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.8)),
 <<<<<<< HEAD
+<<<<<<< HEAD
     url(../img/b2.jpg);
 =======
     url(./../img/imghome/b2.jpg);
 >>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
+=======
+    url(./../image/imghome/b2.jpg);
+>>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1087,7 +1108,6 @@ footer a:hover {
 
 /* responsive */
 @media screen and (max-width: 1200px) {
-
   /* header */
   header .navbar .btn {
     line-height: 40px;
@@ -1108,7 +1128,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 992px) {
-
   /* header */
   header .navbar-brand {
     flex-grow: 1;
@@ -1216,7 +1235,7 @@ footer a:hover {
   }
 
   /* footer */
-  footer .container>div {
+  footer .container > div {
     flex-direction: column;
   }
 
