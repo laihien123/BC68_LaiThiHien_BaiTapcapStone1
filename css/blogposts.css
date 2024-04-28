@@ -218,6 +218,10 @@ header .mode {
   color: #2c3038;
 }
 
+.navbar .navbar-nav .nav-item .nav1_active {
+  color: #de5879;
+}
+
 .navbar .navbar-nav .nav-item .nav-link.active {
   color: #de5879;
 }
