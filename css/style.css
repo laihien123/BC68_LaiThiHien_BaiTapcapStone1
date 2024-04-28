@@ -100,15 +100,7 @@ a {
 /* Dark Theme--banner*/
 .dark .banner_bg {
   background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.92)),
-<<<<<<< HEAD
-<<<<<<< HEAD
-    url(../img/banner.jpg);
-=======
-  url(./../img/imghome/banner.jpg);
->>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
-=======
     url(./../image/imghome/banner.jpg);
->>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -223,16 +215,8 @@ a {
 
 /* Dark Theme--people*/
 .dark .people_bg {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)), url(../img/b2.jpg);
-=======
-  background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)), url(./../img/imghome/b2.jpg);
->>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
-=======
   background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)),
     url(./../image/imghome/b2.jpg);
->>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -446,15 +430,7 @@ header .navbar.active {
 
 .banner_bg {
   background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.8)),
-<<<<<<< HEAD
-<<<<<<< HEAD
-    url(../img/banner.jpg);
-=======
-    url(./../img/imghome/banner.jpg);
->>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
-=======
     url(./../image/imghome/banner.jpg);
->>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -618,15 +594,7 @@ header .navbar.active {
 /* perform */
 .perform_bg {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)),
-<<<<<<< HEAD
-<<<<<<< HEAD
-    url(../img/bg.jpg);
-=======
-    url(./../img/imghome/bg.jpg);
->>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
-=======
     url(./../image/imghome/bg.jpg);
->>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -861,15 +829,7 @@ header .navbar.active {
 /* people */
 .people_bg {
   background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.8)),
-<<<<<<< HEAD
-<<<<<<< HEAD
-    url(../img/b2.jpg);
-=======
-    url(./../img/imghome/b2.jpg);
->>>>>>> 1706b7e6ef51df6b595c9141452bafadc0446caa
-=======
     url(./../image/imghome/b2.jpg);
->>>>>>> 13b2d60e646bc4853a21bf9d8a4907100b0d8fde
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
