@@ -367,11 +367,15 @@ header .navbar.active {
 .about ul {
   padding-left: 0px;
 }
+.about ul li i {
+  font-size: 10px;
+}
+
 .about ul li {
   margin: 15px 0;
   line-height: 10px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 15px;
   list-style-type: none;
 }
 .about li button {
@@ -387,6 +391,7 @@ header .navbar.active {
   border-radius: 8px;
   max-width: 100%;
   height: auto;
+  transition: all 0.3s;
 }
 .about_image img:hover {
   transform: translateY(-5px);
@@ -437,6 +442,11 @@ header .navbar.active {
 .solution .video:hover {
   transform: translateY(-5px);
 }
+
+.solution_content button:hover {
+  background-color: #cf2952;
+}
+
 /* carousel */
 .owl-carousel .item img {
   filter: grayscale(1);
@@ -462,6 +472,11 @@ header .navbar.active {
   top: 10px;
   line-height: 28px;
   transition: all 0.6s;
+}
+
+.features h2 {
+  font-size: 46px;
+  font-weight: 700;
 }
 
 .features_item:hover h4 {
@@ -546,7 +561,12 @@ header .navbar.active {
 
 .members_content {
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
 }
+.members_content:hover h3 {
+  color: #cf2952;
+}
+
 /* .members_text_icon i{
   width: 30px;
   height: 30px;
@@ -578,6 +598,7 @@ header .navbar.active {
 }
 .members_text h3 {
   font-size: 20px;
+  transition: all 0.3s;
 }
 .members_text {
   border-radius: 0 0 15px 15px;
@@ -629,6 +650,7 @@ header .navbar.active {
 .community_btn a {
   color: #dc4f72;
   border-color: #dc4f72;
+  transition: all 0.5s;
 }
 .community .community_text h3 {
   font-size: 46px;
