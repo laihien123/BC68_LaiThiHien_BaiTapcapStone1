@@ -104,6 +104,74 @@ a {
   opacity: 1;
 }
 
+/* Dark theme--about */
+.dark .about {
+  background-color: #131617;
+  color: white;
+}
+.dark .about .header {
+  background-color: #131617;
+}
+
+.dark .about .about_text h3 {
+  color: white;
+}
+
+/* Dark theme-- section  */
+.dark .section {
+  background-color: #131617;
+  margin-top: 0;
+  color: white;
+}
+/* Dark Theme--breadcrumb*/
+.dark .breadcrumb_home {
+  background: #191c1d !important;
+  color: #eee;
+}
+
+/* Dark theme --feartures */
+.dark .features {
+  background-color: #191c1d;
+  color: white;
+}
+
+.dark .features_item {
+  background-color: #131617;
+}
+.dark .features_item h4 {
+  color: white;
+}
+.dark .features_item .item_caption {
+  color: white;
+}
+
+/* Dark Theme--solutions*/
+.dark .solution {
+  color: white;
+}
+.dark .solution h3 {
+  color: white;
+}
+
+/* Dark Theme--teammember*/
+.dark .members {
+  background-color: #191c1d;
+  color: white;
+}
+.dark .members h3 {
+  color: white;
+}
+.dark .members_content {
+  border-color: rgba(255, 255, 255, 0.068);
+  background-color: #131617;
+}
+
+/* Dark Theme--communiti*/
+.dark .community {
+  background-color: #131617;
+  color: white;
+}
+
 /* Dark Theme--footer*/
 .dark footer > div {
   background: #191c1d !important;
@@ -345,6 +413,24 @@ header .navbar.active {
 .header {
   background-color: rgb(252, 252, 250);
 }
+
+/* breadcrumb  */
+.breadcrumb_home {
+  padding: 15px 20px;
+  margin-top: 90px;
+}
+
+.breadcrumb_home a {
+  color: #dc4f72;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+
+.breadcrumb_home a:hover {
+  text-decoration: underline;
+}
+
 /* about */
 .about h2 {
   font-size: 50px;
@@ -562,6 +648,8 @@ header .navbar.active {
 .members_content {
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-radius: 5px;
 }
 .members_content:hover h3 {
   color: #cf2952;
@@ -651,6 +739,7 @@ header .navbar.active {
   color: #dc4f72;
   border-color: #dc4f72;
   transition: all 0.5s;
+  padding: 10px 30px;
 }
 .community .community_text h3 {
   font-size: 46px;
